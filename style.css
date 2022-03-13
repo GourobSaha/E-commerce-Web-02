@@ -1,0 +1,9 @@
+.navbar-brand img {
+  width: 150px;
+}
+.background {
+  background-image: url("bg-2.png");
+  background-repeat: no-repeat;
+  background-position: -2% 70%;
+  height: 1000px;
+}
