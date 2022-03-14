@@ -5,7 +5,7 @@
   background-image: url("bg-2.png");
   background-repeat: no-repeat;
   background-position: -2% 70%;
-  height: 800px;
+  height: 700px;
 }
 .buynow {
   font-size: large;
@@ -22,4 +22,41 @@
 }
 .buynow:hover {
   box-shadow: 5px 5px 10px gray;
+}
+.carousel-control-next {
+  justify-content: end;
+  width: 70px;
+}
+.carousel-control-prev {
+  justify-content: start;
+  width: 70px;
+}
+.carousel-indicators {
+  align-items: center;
+  background-color: orange;
+  border-radius: 5px;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 45.76%;
+  margin-bottom: 0%;
+}
+.seeall:link,
+.seeall:visited {
+  color: orange;
+  text-decoration: none;
+}
+.card {
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+.card img {
+  padding-top: 10%;
+  width: fit-content;
+}
+.card-footer {
+  background-color: white;
+  border: none;
 }
