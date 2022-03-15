@@ -76,6 +76,7 @@
 .cate {
   justify-content: center;
   text-align: center;
+  margin-bottom: 150px;
 }
 .col-md-3 img {
   margin-top: 10%;
@@ -105,4 +106,10 @@
 .shad3 img {
   margin-top: 0%;
   width: 110%;
+}
+.banner-bg {
+  background-color: orange;
+  height: 300px;
+  border-radius: 30px;
+  margin-bottom: 100px;
 }
